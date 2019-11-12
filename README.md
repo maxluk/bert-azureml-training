@@ -1,4 +1,4 @@
-# Welcome to "Hands-on deep learning with TensorFlow 2.0 and Azure" Workshop!
+# Welcome to "Deep Learning for Partner Cloud Architects" Workshop!
 
 <!-- 
 Guidelines on README format: https://review.docs.microsoft.com/help/onboard/admin/samples/concepts/readme-template?branch=master
@@ -9,12 +9,10 @@ Taxonomies for products and languages: https://review.docs.microsoft.com/new-hop
 -->
 
 ## Overview 
-This repository contains content of a four part workshop of using Tensorflow 2.0 on Azure Machine Learning service. The different components of the workshop are as follows:
+This repository contains content of a two part workshop of using Tensorflow 2.0 on Azure Machine Learning service. The different components of the workshop are as follows:
 
 - Part 1: [Preparing Data and Model Training](https://github.com/microsoft/bert-stack-overflow/blob/master/1-Training/AzureServiceClassifier_Training.ipynb)
 - Part 2: [Inferencing and Deploying a Model](https://github.com/microsoft/bert-stack-overflow/blob/master/2-Inferencing/AzureServiceClassifier_Inferencing.ipynb)
-- Part 3: [Setting Up a Pipeline Using MLOps](https://github.com/microsoft/bert-stack-overflow/tree/master/3-ML-Ops)
-- Part 4: [Explaining Your Model Predictions](https://github.com/microsoft/bert-stack-overflow/blob/master/4-Interpretibility/IBMEmployeeAttritionClassifier_Interpretability.ipynb)
 
 The workshop demonstrates end-to-end Machine Learning workflow on the example of training a [BERT](https://arxiv.org/pdf/1810.04805.pdf) model to automatically tag questions on Stack Overflow.
 
@@ -23,7 +21,7 @@ The workshop demonstrates end-to-end Machine Learning workflow on the example of
 
 1. Provision your personal Lab environment
 
-    * Open **Registration URL**: http://bit.ly/2OjknZW
+    * Open **Registration URL**: http://bit.ly/32y29Hj  
     * Enter **Activation Code** which should be provided by the instructors of the workshop.
     * Fill out registration form and Submit it.
     * On the next screen click **Launch Lab**.
@@ -38,24 +36,30 @@ The workshop demonstrates end-to-end Machine Learning workflow on the example of
     * Click **Get started**!
     * In the welcome screen click on **Take a quick tour** button to familiarize yourself with Azure ML studio.
 
-3. Create Azure Machine Learning Notebook VM
+3. Upgrade to Enterprise Edition
+
+    * Azure ML workspace provides advanced capabilities in its Enterprise Edition.
+    * To unlock Enterprise Edition click on **Automated ML** tab in the left navigation bar.
+    * Then, in the Upgrade dialog box, click **Upgrade**.
+
+4. Create Azure Machine Learning Notebook VM
 
     * Click on **Compute** tab on the left navigation bar.
     * In the Notebook VM section, click **New**.
     * Enter Notebook VM name of your choice and click **Create**. Creation should take approximately 5 minutes.
 
-4. Clone this repository to Notebook VM in your Azure ML workspace
+5. Clone this repository to Notebook VM in your Azure ML workspace
 
     * Once Notebook VM is created and in Running state, click on the **Jupyter** link. This will open Jupyter web UI in new browser tab.
     * In Jupyter UI click **New > Terminal**.
     * In terminal window, type and execute command: `ls`
     * Notice the name of your user folder and use that name to execute next command: `cd <userfolder>`
-    * Clone the repository of this workshop by executing following command: `git clone https://github.com/microsoft/bert-stack-overflow.git`
+    * Clone the repository of this workshop by executing following command: `git clone https://github.com/maxluk/bert-cloud-architect-boot-camp.git`
 
 5. Open Part 1 of the workshop
 
     * Go back to the Jupyter window.
-    * Navigate to `bert-stack-overflow/1-Training/` folder.
+    * Navigate to `bert-cloud-architect-boot-camp/1-Training/` folder.
     * Open `AzureServiceClassifier_Training.ipynb` notebook.
 
 You are ready to start your workshop! Have fun.
