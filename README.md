@@ -21,7 +21,7 @@ The workshop demonstrates end-to-end Machine Learning workflow on the example of
 
 1. Provision your personal Lab environment
 
-    * Open **Registration URL**: http://bit.ly/32y29Hj  
+    * Open **Registration URL**: http://bit.ly/2WLjeMZ
     * Enter **Activation Code** which should be provided by the instructors of the workshop.
     * Fill out registration form and Submit it.
     * On the next screen click **Launch Lab**.
